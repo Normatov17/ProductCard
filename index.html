@@ -4,14 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- boxicon css link -->
+
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-
-    <title>Adidas card | Product Card</title>
+    <!-- Poppins font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Flipping Crad</title>
   </head>
   <body>
+    <section>
+      <div class="container">
+        <div class="card font-face">
+          <header>
+            <div class="flex">
+              <div class="logo">
+                <img class="logo_img" src="./img/logo.png" alt="LOGO" />
+                <h5 class="logo-title">Master Card</h5>
+              </div>
+              <img class="chip" src="./img/chip.png" alt="chip" />
+            </div>
+          </header>
+
+          <div class="card-details">
+            <div class="name-number">
+              <h6 class="cardName">Card Number</h6>
+              <h5 class="number">2004 1712 2004 1712</h5>
+              <h5 class="name">Davlatbek Normatov</h5>
+            </div>
+
+            <div class="valid-date">
+              <h5>Valid Thru</h5>
+              <h6>05/30</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card back-face">
+          <h6>
+            For custom services call +7 910 008 41 08 or email at
+            davlatbeknormatov17@gmail.com
+          </h6>
+          <span class="magnetic-strip"> </span>
+          <div class="signature"><i>004</i></div>
+          <h5 class="master-title">
+            Mastercard завершает программу Mastercard Rewards. После 13 марта
+            2022.
+          </h5>
+        </div>
+      </div>
+    </section>
     <!-- box js -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </body>
